@@ -81,3 +81,10 @@ li {
   position: relative;
   left: 10px;
 }
+
+.link {
+  font-size: 12px;
+  position: relative;
+  left: 130px;
+  bottom: 20px;
+}
