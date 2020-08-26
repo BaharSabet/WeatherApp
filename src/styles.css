@@ -1,0 +1,83 @@
+input[type="text"] {
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  height: 44px;
+  outline: 0;
+  padding: 10px;
+  width: 300px;
+}
+input[type="submit"] {
+  font-weight: bold;
+  color: white;
+  border-radius: 2px;
+  border: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  height: 44px;
+  outline: 0;
+  padding: 10px;
+  width: 100px;
+}
+li {
+  padding: 0 0 10px;
+}
+.application-container {
+  background-color: rgb(245, 241, 245);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  margin: 20px 0;
+  max-width: 550px;
+  padding: 20px 16px 24px;
+}
+.header {
+  padding: 0 0 20px;
+}
+.search-button {
+  background-color: rgb(85, 24, 85);
+}
+.current-button {
+  background-color: rgb(24, 85, 60);
+}
+
+.main-info {
+  padding: 0 0 20px;
+}
+.city {
+  font-size: 24px;
+  font-weight: bold;
+}
+.temprature {
+  font-size: 24px;
+  font-weight: bold;
+}
+.units {
+  font-size: 14px;
+  position: relative;
+  bottom: 8px;
+}
+.time-date {
+  padding: 10px 0 0;
+}
+.more-info {
+  font-weight: 500;
+  padding: 20px 0 0;
+}
+
+.more-days {
+  position: relative;
+  top: 36px;
+}
+.next-day-temp {
+  font-weight: bold;
+}
+
+.fa-sun {
+  color: rgb(255, 150, 0);
+  position: relative;
+  left: 10px;
+}
+
+.fa-cloud {
+  color: gray;
+  position: relative;
+  left: 10px;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="src/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/3d3f1785ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>WeatherApp</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="application-container">
+        <div class="header">
+          <form id="search-city">
+            <input type="text" id="searched-city" placeholder="Enter a city" />
+            <input type="submit" class="search-button" value="Search" />
+            <input type="submit" class="current-button" value="Current" />
+          </form>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <div class="main-info">
+              <div class="city">LISBON</div>
+              <div class="temprature">
+                <span id="temp">30</span>
+                <span class="units">
+                  <a href="#" id="celsius-link">°C</a> |
+                  <a href="#" id="fahrenheit-link"> °F</a></span
+                >
+                <i class="fas fa-sun"></i>
+              </div>
+              <div class="time-date">
+                <div class="current-time">Friday 5:47PM</div>
+                <div class="today-date">August 17, 2020</div>
+              </div>
+            </div>
+            <div class="more-info">
+              <div class="wind">
+                Wind: <span id="wind-speed">8</span>
+                <span id="wind-unit">km/h</span>
+              </div>
+              <div class="precipitation">Precipitation: 0%</div>
+              <div class="humidity">
+                Humidity: <span id="humidity">35</span>%
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="temp-forecast">
+              <ul class="more-days">
+                <li>
+                  <div class="next-day-temp">
+                    29 °C <i class="fas fa-sun"></i>
+                  </div>
+                  <div class="next-day">Sat 7/18</div>
+                </li>
+                <li>
+                  <div class="next-day-temp">
+                    28 °C <i class="fas fa-cloud"></i>
+                  </div>
+                  <div class="next-day">Sun 7/19</div>
+                </li>
+                <li>
+                  <div class="next-day-temp">
+                    32 °C <i class="fas fa-sun"></i>
+                  </div>
+                  <div class="next-day">Mon 7/20</div>
+                </li>
+                <li>
+                  <div class="next-day-temp">
+                    30 °C <i class="fas fa-sun"></i>
+                  </div>
+                  <div class="next-day">Tue 7/21</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
